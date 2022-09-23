@@ -1,0 +1,28 @@
+body{
+    background: url('../img/black.jpg');
+    background-attachment: fixed;
+}
+
+#logo{
+    background: #333;
+}
+
+.partfooter{
+    background: #333;
+}
+
+#menu ul li:hover{
+    background: #36cd77;
+}
+
+.button-more{
+    background: #333;   
+}
+
+.post{
+    background: #333;   
+}
+
+.contacto p{
+    background: #333;
+}

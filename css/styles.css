@@ -1,0 +1,330 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    background: url('../img/black.jpg');
+    background-attachment: fixed;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+#global{
+    width: 65%;
+    margin: 0px auto;
+    margin-top: 40px;
+    background-color: rgb(167, 166, 166);
+    padding: 23px;
+    box-shadow: 0px 0px 2px gray;
+}
+
+#logo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    width: 389px;
+    height: 70px;
+    float: left;
+    margin-bottom: 20px;
+    line-height: 80px;
+    text-transform: uppercase;
+    text-shadow: 3px 2px 1px rgb(64, 135, 102);
+
+    animation-name: move;
+    animation-duration: 3s;
+    animation-iteration-count: 5;
+}
+
+ 
+
+
+#logo1{
+ 
+     float: right; 
+     height: 50px;
+     margin-bottom: 10px;
+     line-height: 80px;
+}
+
+#logo1 img:hover{
+    
+    transform: scale(1.30, 1.30);
+     
+}
+
+ 
+
+#menu{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #333;
+    width: 98%;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+     
+
+}
+
+#menu ul{
+    line-height: 45px;
+    list-style: none;
+}
+
+#menu ul li{
+    height: 45px;
+    display: inline-block;
+    transition: all 300ms;
+}
+
+#menu ul li:hover{
+    background-color: rgb(64, 135, 102);
+}
+
+#menu a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding-left: 42px;
+    padding-right: 45px;
+    position: relative;
+    font-weight: 700;
+
+}
+
+@keyframes move{
+
+ 0%{
+    width: 389px;
+    background-color: #333;
+ } 
+ 100%{
+    width: 389px;
+    background-color: rgb(64, 135, 102);
+ }
+
+}
+
+/*Ajustar imagenes del slider*/
+
+.bx-wrapper, .bx-viewport{
+    height: 440px !important;
+}
+
+
+/* Menu de abajo y redes sociales*/
+.partfooter{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    width: 389px;
+    height: 30px;
+    margin-bottom: 10px;
+    line-height: 30px;
+    text-shadow: 3px 2px 1px rgb(64, 135, 102);
+    
+    animation-name: move1;
+    animation-duration: 3s;
+    animation-iteration-count: 5;
+     
+}
+
+@keyframes move1{
+
+    0%{
+       width: 389px;
+       background-color: #333;
+    } 
+    100%{
+       width: 389px;
+       background-color: rgb(64, 135, 102);
+    }
+   
+   }
+
+   .social-media i {
+    font-size: 20px;
+    display: inline-block;
+    border: 1px solid #2d3e5f;
+    border-radius: 35%;
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    cursor: pointer;
+    margin-top: 8px;
+    text-align: center;
+    transition: all ease-in-out .3s;
+    margin-left: 10px;
+
+    text-shadow: 3px 2px 1px rgb(64, 135, 102);
+    
+    animation-name: move2;
+    animation-duration: 3s;
+    animation-iteration-count: 5;
+ }
+
+ @keyframes move2{
+
+    0%{
+       width: 50px;
+       background-color: #333;
+    } 
+    100%{
+       width: 50px;
+       background-color: rgb(64, 135, 102);
+    }
+   }
+
+   #selector-theme{
+    position: fixed;
+    top: 40%;
+    background: rgba(51, 51, 51, 0.3);
+    width: 50px;
+    height: 100px;
+}
+
+#to-black,
+#to-red,
+#to-blue{
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    display: block;
+    margin: 0px auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#to-black{
+    background: #333;
+}
+
+#to-red{
+    background: #ca3413;
+}
+
+#to-blue{
+    background: #1f87c4;
+}
+
+
+/*My skills*/
+
+#posts{
+    float: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    width: 800px;
+    height: 170px;
+    margin-bottom: 20px;
+    line-height: 20px;
+    text-shadow: 3px 2px 1px rgb(64, 135, 102); 
+
+    animation-name: move3;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+
+   
+}
+
+@keyframes move3{
+
+    0%{
+       width: 50px;
+       background-color: #333;
+    } 
+    25%{
+       width: 50px;
+       background-color: rgb(64, 135, 102);
+    }
+   }
+
+.post{
+    padding: 10px;
+}
+
+.post .date{
+    display: block;
+    color: rgb(242, 244, 242);
+    margin-top: 5px;
+}
+
+.post p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 22px;
+    text-align: justify;
+}
+
+#reloj{
+    font-size: 37px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #333;
+    color: rgb(224, 216, 216);
+    width: 20%;
+    padding: 30px;
+    margin: 0px auto;
+    text-shadow: 3px 2px 1px rgb(64, 135, 102); 
+
+    animation-name: move4;
+    animation-duration: 3s;
+    animation-iteration-count: 4;
+}
+
+
+@keyframes move4{
+
+    0%{
+       width: 50px;
+       background-color: #333;
+    } 
+    25%{
+       width: 50px;
+       background-color: rgb(64, 135, 102);
+    }
+   }
+
+.contacto p{
+    
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #333;
+    color: rgb(224, 216, 216);
+    width: 60%;
+    padding: 50px;
+    margin: 10px auto;
+    text-shadow: 3px 2px 1px rgb(64, 135, 102); 
+
+    animation-name: move4;
+    animation-duration: 3s;
+    animation-iteration-count: 4;
+
+}
+
+@keyframes move4{
+
+    0%{
+       width: 50px;
+       background-color: #333;
+    } 
+    25%{
+       width: 50px;
+       background-color: rgb(64, 135, 102);
+    }
+   }

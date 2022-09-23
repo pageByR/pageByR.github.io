@@ -1,0 +1,32 @@
+body{
+    background: url('../img/blue.jpg');
+    background-attachment: fixed;
+}
+
+#logo{
+    background: #1f87c4;
+}
+
+.partfooter{
+    background: #1f87c4;
+}
+
+#menu ul li:hover{
+    background: #1f87c4;
+}
+
+.button-more{
+    background: #1f87c4;   
+}
+
+.post{
+    background: #1f87c4;   
+}
+
+#reloj{
+    background: #1f87c4;   
+}
+
+.contacto p{
+    background: #1f87c4;
+}
